@@ -10,7 +10,7 @@
   <img src="test/image_depth.gif" alt="example input output gif" width="600" />
 </p>
 
-该代码为本人所做，仅供非商业使用，如转载请标明出处，谢谢合作。
+该代码为本人的工作，禁止商业使用，如转载请标明出处，谢谢合作。
 
 ### 配置
 
