@@ -20,7 +20,7 @@ def dirList(path_list):
 dirList(path_list)
 saveList(path_list)
 
-data = pd.read_csv("C:/Users/liupeng/Desktop/批量处理/Image.txt", header=None);  # 读取需要修改的文件
+data = pd.read_csv("C:/Users/1/Desktop/批量处理/Image.txt", header=None);  # 读取需要修改的文件
 data = data.astype('str')
 for i in range(len(data)):
     data.iloc[i] = '2011_10_03/2011_10_03_drive_0034_sync ' + data.iloc[i] +' l' # 加上 data/obj/ 前缀
