@@ -767,7 +767,7 @@ class Trainer:
                         outputs["identity_selection/{}".format(s)][j][None, ...], self.step)
 
 
-    #不用改：知道自己本次运行采用的什么配置
+    #知道自己本次运行采用的什么配置
     def save_opts(self):
         """Save options to disk so we know what we ran this experiment with
         """
@@ -780,7 +780,7 @@ class Trainer:
             json.dump(to_save, f, indent=2)
 
 
-    #不用改：保存模型
+    #保存模型
     def save_model(self):
         """
         Save model weights to disk
@@ -804,7 +804,7 @@ class Trainer:
         torch.save(self.model_optimizer.state_dict(), save_path)
 
 
-    #不用改：从硬盘进行模型载入
+    #从硬盘进行模型载入
     def load_model(self):
         """
         Load model(s) from disk
